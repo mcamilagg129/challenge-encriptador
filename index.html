@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="Logo">
+        <h1 class="titulo-principal">Challenge Encriptador</h1>
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedortexto1">
+                <textarea placeholder="Ingrese el texto aquí" class="cajatexto" cols="30" rows="10"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="img/Vector.png" alt="alerta">
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="cotenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="c-muneco">
+                <img src="img/Muñeco.png" alt="Muñeco">
+            </div>
+            <div class="c-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingrese el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="c-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+            <div class="c-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+        <section></section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>Hecho por Camila Grisales - 2023</p>
+    </footer>
+</body>
+</html>
